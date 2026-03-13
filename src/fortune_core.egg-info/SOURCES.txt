@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/fortune_core/__init__.py
+src/fortune_core.egg-info/PKG-INFO
+src/fortune_core.egg-info/SOURCES.txt
+src/fortune_core.egg-info/dependency_links.txt
+src/fortune_core.egg-info/top_level.txt
+src/fortune_core/data/hexagrams.json
