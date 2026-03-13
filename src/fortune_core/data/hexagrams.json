@@ -1,1 +1,50 @@
-[]
+[
+	{
+		"id": 1,
+		"name_jp": "乾",
+		"reading": "けん",
+		"symbol": "☰"
+	},
+	{
+		"id": 2,
+		"name_jp": "兌",
+		"reading": "だ",
+		"symbol": "☱"
+	},
+	{
+		"id": 3,
+		"name_jp": "離",
+		"reading": "り",
+		"symbol": "☲"
+	},
+	{
+		"id": 4,
+		"name_jp": "震",
+		"reading": "しん",
+		"symbol": "☳"
+	},
+	{
+		"id": 5,
+		"name_jp": "巽",
+		"reading": "そん",
+		"symbol": "☴"
+	},
+	{
+		"id": 6,
+		"name_jp": "坎",
+		"reading": "かん",
+		"symbol": "☵"
+	},
+	{
+		"id": 7,
+		"name_jp": "艮",
+		"reading": "ごん",
+		"symbol": "☶"
+	},
+	{
+		"id": 8,
+		"name_jp": "坤",
+		"reading": "こん",
+		"symbol": "☷"
+	}
+]
