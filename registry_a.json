@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-04-26T10:28:43.318812",
+    "source": "registry_a.py",
+    "description": "Unified feng shui compass registry (Single Source of Truth)",
+    "repositories": {
+      "fortune_core": "https://github.com/norinori-jan/fortune-core",
+      "fengshui_app": "https://github.com/norinori-jan/fengshui-app",
+      "fenshui_map": "https://github.com/norinori-jan/fenshui_map"
+    },
+    "compatibility": {
+      "platforms": [
+        "web",
+        "mobile_ios_17",
+        "mobile_android",
+        "ar_goggle"
+      ],
+      "formats": [
+        "json",
+        "json_gz",
+        "msgpack"
+      ],
+      "caching": {
+        "ttl_seconds": 86400,
+        "etag_support": true
+      }
+    }
+  },
+  "twenty_four_mountains": [
+    {
+      "index": 0,
+      "name": "子",
+      "center_deg": 0.0,
+      "start_deg": 352.5,
+      "end_deg": 7.5,
+      "element": "水",
+      "category": "earthly_branch",
+      "direction": "north",
+      "feng_shui_role": "玄武"
+    },
+    {
+      "index": 1,
+      "name": "癸",
+      "center_deg": 15.0,
+      "start_deg": 7.5,
+      "end_deg": 22.5,
+      "element": "水",
+      "category": "heavenly_stem",
+      "direction": "north",
+      "feng_shui_role": "玄武"
+    },
+    {
+      "index": 2,
+      "name": "丑",
+      "center_deg": 30.0,
+      "start_deg": 22.5,
+      "end_deg": 37.5,
+      "element": "土",
+      "category": "earthly_branch",
+      "direction": "north_east",
+      "feng_shui_role": "鬼門"
+    },
+    {
+      "index": 3,
+      "name": "艮",
+      "center_deg": 45.0,
+      "start_deg": 37.5,
+      "end_deg": 52.5,
+      "element": "土",
+      "category": "bagua",
+      "direction": "north_east",
+      "feng_shui_role": "鬼門"
+    },
+    {
+      "index": 4,
+      "name": "寅",
+      "center_deg": 60.0,
+      "start_deg": 52.5,
+      "end_deg": 67.5,
+      "element": "木",
+      "category": "earthly_branch",
+      "direction": "north_east",
+      "feng_shui_role": "鬼門"
+    },
+    {
+      "index": 5,
+      "name": "甲",
+      "center_deg": 75.0,
+      "start_deg": 67.5,
+      "end_deg": 82.5,
+      "element": "木",
+      "category": "heavenly_stem",
+      "direction": "east",
+      "feng_shui_role": "青龍"
+    },
+    {
+      "index": 6,
+      "name": "卯",
+      "center_deg": 90.0,
+      "start_deg": 82.5,
+      "end_deg": 97.5,
+      "element": "木",
+      "category": "earthly_branch",
+      "direction": "east",
+      "feng_shui_role": "青龍"
+    },
+    {
+      "index": 7,
+      "name": "乙",
+      "center_deg": 105.0,
+      "start_deg": 97.5,
+      "end_deg": 112.5,
+      "element": "木",
+      "category": "heavenly_stem",
+      "direction": "east",
+      "feng_shui_role": "青龍"
+    },
+    {
+      "index": 8,
+      "name": "辰",
+      "center_deg": 120.0,
+      "start_deg": 112.5,
+      "end_deg": 127.5,
+      "element": "土",
+      "category": "earthly_branch",
+      "direction": "south_east",
+      "feng_shui_role": "風門"
+    },
+    {
+      "index": 9,
+      "name": "巽",
+      "center_deg": 135.0,
+      "start_deg": 127.5,
+      "end_deg": 142.5,
+      "element": "木",
+      "category": "bagua",
+      "direction": "south_east",
+      "feng_shui_role": "風門"
+    },
+    {
+      "index": 10,
+      "name": "巳",
+      "center_deg": 150.0,
+      "start_deg": 142.5,
+      "end_deg": 157.5,
+      "element": "火",
+      "category": "earthly_branch",
+      "direction": "south_east",
+      "feng_shui_role": "風門"
+    },
+    {
+      "index": 11,
+      "name": "丙",
+      "center_deg": 165.0,
+      "start_deg": 157.5,
+      "end_deg": 172.5,
+      "element": "火",
+      "category": "heavenly_stem",
+      "direction": "south",
+      "feng_shui_role": "朱雀"
+    },
+    {
+      "index": 12,
+      "name": "午",
+      "center_deg": 180.0,
+      "start_deg": 172.5,
+      "end_deg": 187.5,
+      "element": "火",
+      "category": "earthly_branch",
+      "direction": "south",
+      "feng_shui_role": "朱雀"
+    },
+    {
+      "index": 13,
+      "name": "丁",
+      "center_deg": 195.0,
+      "start_deg": 187.5,
+      "end_deg": 202.5,
+      "element": "火",
+      "category": "heavenly_stem",
+      "direction": "south",
+      "feng_shui_role": "朱雀"
+    },
+    {
+      "index": 14,
+      "name": "未",
+      "center_deg": 210.0,
+      "start_deg": 202.5,
+      "end_deg": 217.5,
+      "element": "土",
+      "category": "earthly_branch",
+      "direction": "south_west",
+      "feng_shui_role": "裏鬼門"
+    },
+    {
+      "index": 15,
+      "name": "坤",
+      "center_deg": 225.0,
+      "start_deg": 217.5,
+      "end_deg": 232.5,
+      "element": "土",
+      "category": "bagua",
+      "direction": "south_west",
+      "feng_shui_role": "裏鬼門"
+    },
+    {
+      "index": 16,
+      "name": "申",
+      "center_deg": 240.0,
+      "start_deg": 232.5,
+      "end_deg": 247.5,
+      "element": "金",
+      "category": "earthly_branch",
+      "direction": "south_west",
+      "feng_shui_role": "裏鬼門"
+    },
+    {
+      "index": 17,
+      "name": "庚",
+      "center_deg": 255.0,
+      "start_deg": 247.5,
+      "end_deg": 262.5,
+      "element": "金",
+      "category": "heavenly_stem",
+      "direction": "west",
+      "feng_shui_role": "白虎"
+    },
+    {
+      "index": 18,
+      "name": "酉",
+      "center_deg": 270.0,
+      "start_deg": 262.5,
+      "end_deg": 277.5,
+      "element": "金",
+      "category": "earthly_branch",
+      "direction": "west",
+      "feng_shui_role": "白虎"
+    },
+    {
+      "index": 19,
+      "name": "辛",
+      "center_deg": 285.0,
+      "start_deg": 277.5,
+      "end_deg": 292.5,
+      "element": "金",
+      "category": "heavenly_stem",
+      "direction": "west",
+      "feng_shui_role": "白虎"
+    },
+    {
+      "index": 20,
+      "name": "戌",
+      "center_deg": 300.0,
+      "start_deg": 292.5,
+      "end_deg": 307.5,
+      "element": "土",
+      "category": "earthly_branch",
+      "direction": "north_west",
+      "feng_shui_role": "天門"
+    },
+    {
+      "index": 21,
+      "name": "乾",
+      "center_deg": 315.0,
+      "start_deg": 307.5,
+      "end_deg": 322.5,
+      "element": "金",
+      "category": "bagua",
+      "direction": "north_west",
+      "feng_shui_role": "天門"
+    },
+    {
+      "index": 22,
+      "name": "亥",
+      "center_deg": 330.0,
+      "start_deg": 322.5,
+      "end_deg": 337.5,
+      "element": "水",
+      "category": "earthly_branch",
+      "direction": "north_west",
+      "feng_shui_role": "天門"
+    },
+    {
+      "index": 23,
+      "name": "壬",
+      "center_deg": 345.0,
+      "start_deg": 337.5,
+      "end_deg": 352.5,
+      "element": "水",
+      "category": "heavenly_stem",
+      "direction": "north",
+      "feng_shui_role": "玄武"
+    }
+  ],
+  "bagua": [
+    {
+      "id": "坎",
+      "seq_fuxi": 6,
+      "seq_wenwang": 1,
+      "element": "水",
+      "number": 1,
+      "direction": "north",
+      "direction_ja": "北",
+      "lines": "010",
+      "symbol": "☵",
+      "phenomenon": "水",
+      "family_member": "次子",
+      "season": "冬",
+      "time": "夜中",
+      "body_part": "耳",
+      "animal": "豚",
+      "taste": "塩辛い",
+      "color": "黒"
+    },
+    {
+      "id": "坤",
+      "seq_fuxi": 7,
+      "seq_wenwang": 2,
+      "element": "土",
+      "number": 2,
+      "direction": "south_west",
+      "direction_ja": "南西",
+      "lines": "000",
+      "symbol": "☷",
+      "phenomenon": "地",
+      "family_member": "母",
+      "season": "late_summer",
+      "time": "午後",
+      "body_part": "腹",
+      "animal": "牛",
+      "taste": "甘い",
+      "color": "黄"
+    },
+    {
+      "id": "震",
+      "seq_fuxi": 3,
+      "seq_wenwang": 3,
+      "element": "木",
+      "number": 3,
+      "direction": "east",
+      "direction_ja": "東",
+      "lines": "001",
+      "symbol": "☳",
+      "phenomenon": "雷",
+      "family_member": "長子",
+      "season": "春",
+      "time": "明け方",
+      "body_part": "足",
+      "animal": "龍",
+      "taste": "酸っぱい",
+      "color": "青"
+    },
+    {
+      "id": "巽",
+      "seq_fuxi": 2,
+      "seq_wenwang": 4,
+      "element": "木",
+      "number": 4,
+      "direction": "south_east",
+      "direction_ja": "南東",
+      "lines": "011",
+      "symbol": "☴",
+      "phenomenon": "風",
+      "family_member": "長女",
+      "season": "late_spring",
+      "time": "朝",
+      "body_part": "腿",
+      "animal": "鶏",
+      "taste": "酸っぱい",
+      "color": "緑"
+    },
+    {
+      "id": "乾",
+      "seq_fuxi": 0,
+      "seq_wenwang": 6,
+      "element": "金",
+      "number": 6,
+      "direction": "north_west",
+      "direction_ja": "北西",
+      "lines": "111",
+      "symbol": "☰",
+      "phenomenon": "天",
+      "family_member": "父",
+      "season": "early_winter",
+      "time": "夕方",
+      "body_part": "頭",
+      "animal": "馬",
+      "taste": "塩辛い",
+      "color": "白"
+    },
+    {
+      "id": "兌",
+      "seq_fuxi": 1,
+      "seq_wenwang": 7,
+      "element": "金",
+      "number": 7,
+      "direction": "west",
+      "direction_ja": "西",
+      "lines": "110",
+      "symbol": "☱",
+      "phenomenon": "沢",
+      "family_member": "次女",
+      "season": "autumn",
+      "time": "夜",
+      "body_part": "口",
+      "animal": "羊",
+      "taste": "辛い",
+      "color": "白"
+    },
+    {
+      "id": "艮",
+      "seq_fuxi": 4,
+      "seq_wenwang": 8,
+      "element": "土",
+      "number": 8,
+      "direction": "north_east",
+      "direction_ja": "北東",
+      "lines": "100",
+      "symbol": "☶",
+      "phenomenon": "山",
+      "family_member": "次男",
+      "season": "late_winter",
+      "time": "夜中",
+      "body_part": "手",
+      "animal": "犬",
+      "taste": "甘い",
+      "color": "黄"
+    },
+    {
+      "id": "離",
+      "seq_fuxi": 5,
+      "seq_wenwang": 9,
+      "element": "火",
+      "number": 9,
+      "direction": "south",
+      "direction_ja": "南",
+      "lines": "101",
+      "symbol": "☲",
+      "phenomenon": "火",
+      "family_member": "次女",
+      "season": "summer",
+      "time": "昼",
+      "body_part": "目",
+      "animal": "雉",
+      "taste": "苦い",
+      "color": "赤"
+    }
+  ],
+  "five_elements": {
+    "木": {
+      "label_ja": "木",
+      "label_en": "wood",
+      "color": "青",
+      "generates": "火",
+      "controlled_by": "金",
+      "yin_yang": "陽",
+      "organ": "肝",
+      "sense": "目",
+      "season": "春",
+      "direction": "東"
+    },
+    "火": {
+      "label_ja": "火",
+      "label_en": "fire",
+      "color": "赤",
+      "generates": "土",
+      "controlled_by": "水",
+      "yin_yang": "陰",
+      "organ": "心",
+      "sense": "舌",
+      "season": "夏",
+      "direction": "南"
+    },
+    "土": {
+      "label_ja": "土",
+      "label_en": "earth",
+      "color": "黄",
+      "generates": "金",
+      "controlled_by": "木",
+      "yin_yang": "陽",
+      "organ": "脾",
+      "sense": "口",
+      "season": "晩夏",
+      "direction": "中央"
+    },
+    "金": {
+      "label_ja": "金",
+      "label_en": "metal",
+      "color": "白",
+      "generates": "水",
+      "controlled_by": "火",
+      "yin_yang": "陰",
+      "organ": "肺",
+      "sense": "鼻",
+      "season": "秋",
+      "direction": "西"
+    },
+    "水": {
+      "label_ja": "水",
+      "label_en": "water",
+      "color": "黒",
+      "generates": "木",
+      "controlled_by": "土",
+      "yin_yang": "陽",
+      "organ": "腎",
+      "sense": "耳",
+      "season": "冬",
+      "direction": "北"
+    }
+  },
+  "ganzhi": {
+    "heavenly_stems": [
+      "甲",
+      "乙",
+      "丙",
+      "丁",
+      "戊",
+      "己",
+      "庚",
+      "辛",
+      "壬",
+      "癸"
+    ],
+    "earthly_branches": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ]
+  },
+  "directional_roles": {
+    "north": {
+      "label_ja": "北",
+      "role": "玄武",
+      "element": "水",
+      "meaning": "後方サポート"
+    },
+    "east": {
+      "label_ja": "東",
+      "role": "青龍",
+      "element": "木",
+      "meaning": "左側サポート"
+    },
+    "south": {
+      "label_ja": "南",
+      "role": "朱雀",
+      "element": "火",
+      "meaning": "前方開放"
+    },
+    "west": {
+      "label_ja": "西",
+      "role": "白虎",
+      "element": "金",
+      "meaning": "右側サポート"
+    }
+  },
+  "lopan_layers": {
+    "L1": {
+      "name": "天池",
+      "name_en": "compass_rose",
+      "type": "center_point",
+      "description": "羅盤中央の磁針",
+      "precision_deg": 0.0,
+      "mobile_ar": {
+        "visible": true,
+        "z_offset": 0.1
+      }
+    },
+    "L2": {
+      "name": "先天八卦",
+      "name_en": "fuxi_bagua",
+      "type": "bagua",
+      "description": "伏羲八卦（先天八卦）8方位",
+      "count": 8,
+      "degree_per_section": 45.0,
+      "ref": "bagua",
+      "mobile_ar": {
+        "visible": true,
+        "z_offset": 0.2
+      }
+    },
+    "L3": {
+      "name": "後天八卦",
+      "name_en": "wenwang_bagua",
+      "type": "bagua",
+      "description": "文王八卦（後天八卦）",
+      "count": 8,
+      "degree_per_section": 45.0,
+      "mobile_ar": {
+        "visible": true,
+        "z_offset": 0.25
+      }
+    },
+    "L4": {
+      "name": "地盤正針二十四山",
+      "name_en": "ground_24_mountains_compass",
+      "type": "24_mountains",
+      "description": "地盤の正針二十四山",
+      "count": 24,
+      "degree_per_section": 15.0,
+      "ref": "twenty_four_mountains",
+      "precision_deg": 7.5,
+      "mobile_ar": {
+        "visible": true,
+        "z_offset": 0.3
+      }
+    },
+    "L5": {
+      "name": "人盤",
+      "name_en": "human_plate",
+      "type": "human_plate",
+      "description": "人盤（将来実装予定）",
+      "count": 36,
+      "degree_per_section": 10.0,
+      "mobile_ar": {
+        "visible": false,
+        "z_offset": 0.35
+      }
+    },
+    "L6": {
+      "name": "天盤正針二十四山",
+      "name_en": "heaven_24_mountains_compass",
+      "type": "24_mountains",
+      "description": "天盤の正針二十四山（将来実装予定）",
+      "count": 24,
+      "degree_per_section": 15.0,
+      "mobile_ar": {
+        "visible": false,
+        "z_offset": 0.4
+      }
+    },
+    "L7": {
+      "name": "分金",
+      "name_en": "fine_divisions",
+      "type": "fine_divisions",
+      "description": "金銭分金（5度精度）",
+      "precision_deg": 5.0,
+      "mobile_ar": {
+        "visible": false,
+        "z_offset": 0.45
+      }
+    },
+    "L8": {
+      "name": "更細分",
+      "name_en": "ultra_fine_divisions",
+      "type": "ultra_fine_divisions",
+      "description": "3度精度による更細分",
+      "precision_deg": 3.0,
+      "mobile_ar": {
+        "visible": false,
+        "z_offset": 0.5
+      }
+    },
+    "L9": {
+      "name": "予約L9",
+      "name_en": "reserved_L9",
+      "type": "reserved",
+      "description": "将来の層拡張用",
+      "mobile_ar": {
+        "visible": false
+      }
+    },
+    "L10": {
+      "name": "予約L10",
+      "name_en": "reserved_L10",
+      "type": "reserved",
+      "description": "将来の層拡張用",
+      "mobile_ar": {
+        "visible": false
+      }
+    },
+    "L11": {
+      "name": "予約L11",
+      "name_en": "reserved_L11",
+      "type": "reserved",
+      "description": "将来の層拡張用",
+      "mobile_ar": {
+        "visible": false
+      }
+    },
+    "L12": {
+      "name": "予約L12",
+      "name_en": "reserved_L12",
+      "type": "reserved",
+      "description": "将来の層拡張用",
+      "mobile_ar": {
+        "visible": false
+      }
+    },
+    "L13": {
+      "name": "三百六十度",
+      "name_en": "360_degrees",
+      "type": "full_precision",
+      "description": "360度フルスケール（1度精度）",
+      "precision_deg": 1.0,
+      "mobile_ar": {
+        "visible": false,
+        "z_offset": 0.55
+      }
+    }
+  },
+  "constants": {
+    "degrees_per_day": 360.0,
+    "degrees_per_year": 131490.0,
+    "precision_default": 1.0,
+    "precision_mobile": 7.5
+  }
+}
