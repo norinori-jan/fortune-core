@@ -1,203 +1,564 @@
 {
-  "version": "1.1",
+  "_meta": {
+    "version": "1.0.0",
+    "total_cards": 78,
+    "description": "fortune-core タロットカードデータ（78枚フルデッキ）",
+    "arcana": ["major", "minor"],
+    "suits": ["wands", "cups", "swords", "pentacles"],
+    "elements": {
+      "wands":     "fire",
+      "cups":      "water",
+      "swords":    "air",
+      "pentacles": "earth",
+      "major":     "spirit"
+    }
+  },
   "cards": [
     {
-      "number": 0,
-      "name": "The Fool",
-      "element": "AIR",
-      "meanings": {
-        "upright": "新しい旅立ちと無限の可能性が始まる時です。恐れを手放し、直感を信じて未知の世界へ一歩踏み出しましょう。この瞬間、あなたの人生は新たなページを開きます。",
-        "reversed": "軽率な決定や準備不足が警告されています。大切なものを失う危険があるため、もう一度思慮深く考え直してください。慎重さと計画性を取り戻しましょう。"
-      }
+      "id": "major_00", "number": 0, "arcana": "major", "element": "spirit",
+      "name": "愚者", "name_en": "The Fool",
+      "keywords": ["自由", "新始まり", "純粋", "冒険", "無限の可能性"],
+      "meaning_upright": "新しい旅立ちと無限の可能性を示します。恐れを手放し、直感に従って一歩を踏み出す時です。",
+      "meaning_reversed": "無謀さや準備不足を警告します。衝動的な行動を控え、リスクを見極めてから動きましょう。"
     },
     {
-      "number": 1,
-      "name": "The Magician",
-      "element": "AIR",
-      "meanings": {
-        "upright": "あなたの内に眠る力が目覚めるときです。才能や意志力を駆使して、今こそ行動を起こしましょう。世界はあなたの思いのままに形作られます。",
-        "reversed": "力を誤用したり、自信が揺らいでいる状態です。本来の能力を見失わず、正直さと誠実さに立ち戻ってください。偽りや巧みさは必ず明かされます。"
-      }
+      "id": "major_01", "number": 1, "arcana": "major", "element": "spirit",
+      "name": "魔術師", "name_en": "The Magician",
+      "keywords": ["意志力", "創造", "技術", "集中", "実現"],
+      "meaning_upright": "あなたには目標を実現するすべての力と資源が揃っています。意志を集中させ、行動に移す時です。",
+      "meaning_reversed": "能力の浪費や詐欺的な行為への警告。本来の力が未発揮のまま眠っています。"
     },
     {
-      "number": 2,
-      "name": "The High Priestess",
-      "element": "WATER",
-      "meanings": {
-        "upright": "直感と内なる知識があなたを導いています。瞑想や静寂の中で答えを見つけてください。表面的には見えない真実が、あなたの心の奥深くにあります。",
-        "reversed": "隠されていた秘密や真実が表面に出ようとしています。無視してきた直感に耳を傾け、自分の内面と向き合うべき時です。知識の探求を止めないでください。"
-      }
+      "id": "major_02", "number": 2, "arcana": "major", "element": "spirit",
+      "name": "女教皇", "name_en": "The High Priestess",
+      "keywords": ["直感", "神秘", "内なる知恵", "潜在意識", "待機"],
+      "meaning_upright": "内なる声に耳を傾けてください。今は行動より観察と静寂の時。直感が答えを知っています。",
+      "meaning_reversed": "直感の無視や隠された情報の存在を示します。自分の内面と向き合う必要があります。"
     },
     {
-      "number": 3,
-      "name": "The Empress",
-      "element": "EARTH",
-      "meanings": {
-        "upright": "豊かさと創造性に満ちた時期が訪れています。愛、美、そして物質的な恵みがあなたを包み込みます。新しい命や計画の実現に向け、大地の力を信じてください。",
-        "reversed": "創造性が失われ、依存や甘えが強まっている状態です。自分自身の価値を見直し、現実的な行動を起こすべきとき。過剰さを手放し、バランスを取り戻しましょう。"
-      }
+      "id": "major_03", "number": 3, "arcana": "major", "element": "spirit",
+      "name": "女帝", "name_en": "The Empress",
+      "keywords": ["豊穣", "創造性", "母性", "自然", "感覚の喜び"],
+      "meaning_upright": "豊かさと創造力が花開く時期です。自然のリズムに従い、育てることで大きな実りが得られます。",
+      "meaning_reversed": "過保護や依存関係、創造性の停滞を示します。自立することが大切です。"
     },
     {
-      "number": 4,
-      "name": "The Emperor",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "力と権威があなたに与えられています。リーダーシップを発揮し、確固たる意志で目標を達成する時です。秩序と規律を保ちながら、自分の王国を築きましょう。",
-        "reversed": "権力の濫用や独裁的態度が警告されています。柔軟性を失い、他者の声を聞かなくなっています。謙虚さを取り戻し、支配欲を手放してください。"
-      }
+      "id": "major_04", "number": 4, "arcana": "major", "element": "spirit",
+      "name": "皇帝", "name_en": "The Emperor",
+      "keywords": ["権威", "秩序", "構造", "父性", "安定"],
+      "meaning_upright": "強いリーダーシップと規律が必要な時。論理的思考と確固たる意志で状況をコントロールしましょう。",
+      "meaning_reversed": "支配欲や硬直性への警告。柔軟性を持ち、他者の意見に耳を傾けてください。"
     },
     {
-      "number": 5,
-      "name": "The Hierophant",
-      "element": "EARTH",
-      "meanings": {
-        "upright": "伝統、教え、そして精神的な知恵があなたを導きます。既存の価値観を尊重し、導き手や師の言葉に耳を傾けてください。人生の根本的な教訓が今学ぶべき時です。",
-        "reversed": "慣習に縛られ、新しい視点を拒否している状態です。自由な思考と個性を取り戻してください。異なる道を歩む勇気を持ち、自分自身の内なる真理を探求しましょう。"
-      }
+      "id": "major_05", "number": 5, "arcana": "major", "element": "spirit",
+      "name": "教皇", "name_en": "The Hierophant",
+      "keywords": ["伝統", "信仰", "教育", "慣習", "精神的権威"],
+      "meaning_upright": "伝統や慣習の中に知恵があります。師や権威者のアドバイスに耳を傾ける時です。",
+      "meaning_reversed": "慣習への反発や独自の道の模索。既存のルールを疑い、新しい価値観を探しています。"
     },
     {
-      "number": 6,
-      "name": "The Lovers",
-      "element": "AIR",
-      "meanings": {
-        "upright": "愛と選択の瞬間が訪れています。心の声に従い、真実の相手や道を選びましょう。この決断は人生を大きく変える力を持ちます。愛と調和が成立する時です。",
-        "reversed": "不協和音や離別が示唆されています。偽りの選択や不正直さがあります。自分の本当の気持ちに向き合い、誤った道から正しい決断へと軌道を修正してください。"
-      }
+      "id": "major_06", "number": 6, "arcana": "major", "element": "spirit",
+      "name": "恋人", "name_en": "The Lovers",
+      "keywords": ["愛", "選択", "調和", "価値観", "契約"],
+      "meaning_upright": "重要な選択の時。心と直感に従い、真に大切なものを選んでください。愛と調和が鍵です。",
+      "meaning_reversed": "価値観の不一致や誤った選択への警告。自分の本音と向き合うことが必要です。"
     },
     {
-      "number": 7,
-      "name": "The Chariot",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "意志の力と前進の時です。どんな障害も乗り越え、確信を持って目標へと進みましょう。勝利はあなたの決意と行動の中にあります。コントロールと方向性が鍵です。",
-        "reversed": "制御を失い、進むべき道を見失っている状態です。焦りや衝動的な行動は避けてください。一度立ち止まり、自分の力を再確認してから、新たなスタートを切りましょう。"
-      }
+      "id": "major_07", "number": 7, "arcana": "major", "element": "spirit",
+      "name": "戦車", "name_en": "The Chariot",
+      "keywords": ["勝利", "意志", "前進", "コントロール", "決意"],
+      "meaning_upright": "強い意志と決断力で障害を乗り越える時。二つの力を統御し、目標に向かって突き進みましょう。",
+      "meaning_reversed": "方向性の喪失や自制心の欠如。エネルギーが分散してしまっています。"
     },
     {
-      "number": 8,
-      "name": "Strength",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "内なる力と心の強さがあなたを支えています。温和さと忍耐力で困難を克服し、野心を制御してください。真の力は暴力ではなく、慈悲と自制心の中に存在します。",
-        "reversed": "自信の喪失や内的な弱さが露呈しています。恐れと疑いに支配されていないか自問してください。本来の力を信じ、絶望から立ち上がる勇気を取り戻しましょう。"
-      }
+      "id": "major_08", "number": 8, "arcana": "major", "element": "spirit",
+      "name": "力", "name_en": "Strength",
+      "keywords": ["内なる力", "勇気", "忍耐", "慈悲", "柔らかな強さ"],
+      "meaning_upright": "力ずくでなく、愛と忍耐で困難を乗り越える時。内側の強さが最大の武器です。",
+      "meaning_reversed": "自信の喪失や内なる弱さ。自己不信を手放し、本来の力を思い出してください。"
     },
     {
-      "number": 9,
-      "name": "The Hermit",
-      "element": "EARTH",
-      "meanings": {
-        "upright": "瞑想と内省の時期です。静寂の中で真実を求め、自分自身と向き合ってください。一人の時間が深い知恵と精神的な成長をもたらします。光を求める内なる旅が始まります。",
-        "reversed": "孤立と社会からの分断が警告されています。過度な隠遁や世捨人的態度は避けてください。他者との繋がりを取り戻し、世界に再び一歩を踏み出す勇気を持ちましょう。"
-      }
+      "id": "major_09", "number": 9, "arcana": "major", "element": "spirit",
+      "name": "隠者", "name_en": "The Hermit",
+      "keywords": ["内省", "孤独", "探求", "知恵", "ガイダンス"],
+      "meaning_upright": "一人で内側を旅する時期。外の喧騒から離れ、深い内省と瞑想が新しい智慧をもたらします。",
+      "meaning_reversed": "孤立や引きこもりへの警告。内省が行き過ぎて孤独になっています。"
     },
     {
-      "number": 10,
-      "name": "Wheel of Fortune",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "運命の転機と幸運の到来です。人生のサイクルが回転し、新しい局面へと移ります。流れに身を任せ、変化を受け入れましょう。好機は今この瞬間にあります。",
-        "reversed": "不運や予期しない逆転が示唆されています。抵抗せず、変化の流れを受け入れてください。今の苦難は次の成長へのステップです。運命に翻弄されず、自分の中心を保ちましょう。"
-      }
+      "id": "major_10", "number": 10, "arcana": "major", "element": "spirit",
+      "name": "運命の輪", "name_en": "Wheel of Fortune",
+      "keywords": ["変化", "サイクル", "運命", "転換点", "好機"],
+      "meaning_upright": "運命の大きな転換点。流れに乗ることで、状況が有利に動き出します。変化を歓迎しましょう。",
+      "meaning_reversed": "悪運や予期せぬ変化。流れに逆らわず、しなやかに対応することが求められます。"
     },
     {
-      "number": 11,
-      "name": "Justice",
-      "element": "AIR",
-      "meanings": {
-        "upright": "公正と責任の時です。正直さと誠実さに基づいた決断が求められています。過去の行いが報われ、因果応報が働きます。自分の行動に責任を持ってください。",
-        "reversed": "不公正や偏見が警告されています。決断の遅延や逃げ腰が見られます。真実と向き合い、先延ばしを止めて、正当な判断を下す勇気を持つべき時です。"
-      }
+      "id": "major_11", "number": 11, "arcana": "major", "element": "spirit",
+      "name": "正義", "name_en": "Justice",
+      "keywords": ["公正", "真実", "因果", "バランス", "責任"],
+      "meaning_upright": "公平な判断と正義が示されます。真実に向き合い、誠実に行動することで正しい結果が得られます。",
+      "meaning_reversed": "不公平や不誠実。自分の行動の結果から目を背けないことが大切です。"
     },
     {
-      "number": 12,
-      "name": "The Hanged Man",
-      "element": "WATER",
-      "meanings": {
-        "upright": "新しい視点への転換と一時的な停滞が必要です。通常の視点から逆転した見方をしてください。この忍耐と放棄の時間が、深い啓発をもたらします。",
-        "reversed": "執着と後戻りが示唆されています。変化を拒否し、古い考え方に固執しています。前に進むことを決断し、新しい人生段階へと一歩踏み出してください。"
-      }
+      "id": "major_12", "number": 12, "arcana": "major", "element": "spirit",
+      "name": "吊られた男", "name_en": "The Hanged Man",
+      "keywords": ["一時停止", "視点の転換", "犠牲", "悟り", "待機"],
+      "meaning_upright": "あえて動かない時。別の角度から物事を見ることで、新たな智慧と洞察が生まれます。",
+      "meaning_reversed": "停滞への抵抗や犠牲の回避。必要な変容を拒んでいます。"
     },
     {
-      "number": 13,
-      "name": "Death",
-      "element": "WATER",
-      "meanings": {
-        "upright": "終わりと新しい始まりです。古い自分や状況を手放し、生まれ変わるべき時です。恐れずに変化を受け入れてください。この終焉は必然的な進化と再生をもたらします。",
-        "reversed": "抵抗と停滞が示唆されています。変化を拒否し、古い枠にしがみついています。恐れを手放し、時間とともに自然な流れに身を任せましょう。"
-      }
+      "id": "major_13", "number": 13, "arcana": "major", "element": "spirit",
+      "name": "死神", "name_en": "Death",
+      "keywords": ["変容", "終焉と始まり", "手放し", "転生", "変化"],
+      "meaning_upright": "古いものを手放し、新しいサイクルへ移行する時。死は終わりではなく、変容と再生を意味します。",
+      "meaning_reversed": "変化への抵抗や停滞。古いものにしがみつくことで成長が阻まれています。"
     },
     {
-      "number": 14,
-      "name": "Temperance",
-      "element": "WATER",
-      "meanings": {
-        "upright": "調和とバランスの達成です。相反するものを統合し、穏やかな中道を歩みましょう。忍耐と融和の精神があなたを導きます。内面の平和が外界に反映されます。",
-        "reversed": "不調和と過度な行動が警告されています。バランスを失い、極端に走っています。中庸を取り戻し、自制心と節度を心がけてください。"
-      }
+      "id": "major_14", "number": 14, "arcana": "major", "element": "spirit",
+      "name": "節制", "name_en": "Temperance",
+      "keywords": ["調和", "バランス", "忍耐", "中庸", "統合"],
+      "meaning_upright": "調和とバランスを取り戻す時。急がず慌てず、流れに沿って物事を丁寧に統合していきましょう。",
+      "meaning_reversed": "過剰や不均衡。バランスを失い、極端な方向に進んでいます。"
     },
     {
-      "number": 15,
-      "name": "The Devil",
-      "element": "EARTH",
-      "meanings": {
-        "upright": "物質的な執着と束縛が示唆されています。欲望に支配されていないか自問してください。本当の自由は、執着を手放すことから始まります。この警告を転機にして解放を求めましょう。",
-        "reversed": "束縛からの解放と自由の到来です。長らく支配していた力から逃れられます。自分の人生を取り戻し、本当の自由と自分らしさを再発見してください。"
-      }
+      "id": "major_15", "number": 15, "arcana": "major", "element": "spirit",
+      "name": "悪魔", "name_en": "The Devil",
+      "keywords": ["束縛", "執着", "物質主義", "影", "解放の必要性"],
+      "meaning_upright": "何かに縛られている状態を示します。その鎖は実は外せます。恐怖や執着を直視する勇気を。",
+      "meaning_reversed": "束縛からの解放の始まり。依存や強迫観念から自由になる力が芽生えています。"
     },
     {
-      "number": 16,
-      "name": "The Tower",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "激変と衝撃的な崩壊が示唆されています。古い構造は破壊されますが、それは新しい土台の構築へ向けた必然的なプロセスです。破壊の先に再生があります。",
-        "reversed": "危機からの脱出と回避です。迫る大きな変化を乗り越え、安定を取り戻す流れが見えます。回復と新しい展望が開けてきます。"
-      }
+      "id": "major_16", "number": 16, "arcana": "major", "element": "spirit",
+      "name": "塔", "name_en": "The Tower",
+      "keywords": ["突然の変化", "崩壊", "啓示", "解放", "真実の露出"],
+      "meaning_upright": "突然の崩壊や変化。築き上げた偽りの構造が壊れ、より真実に近いものが現れます。",
+      "meaning_reversed": "避けられない変化への抵抗。破壊の衝撃を最小限にするために、今から準備を。"
     },
     {
-      "number": 17,
-      "name": "The Star",
-      "element": "AIR",
-      "meanings": {
-        "upright": "希望と光の導きです。失われていた希望が戻り、新しい方向性が見えてきます。あなたの夢と理想に向かって歩を進めてください。星のような輝きがあなたを支えます。",
-        "reversed": "失望と絶望が警告されています。光を見失い、方向性を失っています。小さな光でも見つけようとする努力が必要です。希望を取り戻すため、心を開いてください。"
-      }
+      "id": "major_17", "number": 17, "arcana": "major", "element": "spirit",
+      "name": "星", "name_en": "The Star",
+      "keywords": ["希望", "インスピレーション", "癒し", "再生", "信頼"],
+      "meaning_upright": "希望と癒しの光が差し込む時。未来を信頼し、自分の可能性を開いていきましょう。",
+      "meaning_reversed": "希望の喪失や絶望感。内なる光が見えなくなっていますが、必ず再び輝きます。"
     },
     {
-      "number": 18,
-      "name": "The Moon",
-      "element": "WATER",
-      "meanings": {
-        "upright": "幻想と無意識の領域への旅です。直感と夢の力を信じてください。真実は時に曖昧で、光と影の中に隠れています。心の声に耳を傾けることが重要です。",
-        "reversed": "幻想から現実へ、真実の明白化です。隠されていた真実が露わになり、混乱が解けます。透明性と明確性を取り戻し、真実に基づいた判断をしてください。"
-      }
+      "id": "major_18", "number": 18, "arcana": "major", "element": "spirit",
+      "name": "月", "name_en": "The Moon",
+      "keywords": ["幻想", "恐怖", "潜在意識", "直感", "不確かさ"],
+      "meaning_upright": "物事が不明瞭で不安定な時。恐れや幻想に惑わされず、潜在意識の声に耳を澄ませましょう。",
+      "meaning_reversed": "混乱や欺瞞からの脱出。隠れていた真実が明らかになり始めます。"
     },
     {
-      "number": 19,
-      "name": "The Sun",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "勝利と輝きの時です。明るさと成功があなたの人生を照らしています。喜びと充足感に満ちた日々が訪れます。あなたの本来の輝きが全世界に放たれます。",
-        "reversed": "一時的な陰りや希望の減少が示唆されています。太陽は必ず戻ります。今の暗さは永遠ではなく、再び輝く日まで忍耐を持ってください。"
-      }
+      "id": "major_19", "number": 19, "arcana": "major", "element": "spirit",
+      "name": "太陽", "name_en": "The Sun",
+      "keywords": ["成功", "喜び", "活力", "明晰", "豊かさ"],
+      "meaning_upright": "輝かしい成功と喜びの時。エネルギーに満ち溢れ、すべてが明るく照らされています。",
+      "meaning_reversed": "一時的な曇り。喜びや成功が少し遅れていますが、太陽は必ず昇ります。"
     },
     {
-      "number": 20,
-      "name": "Judgement",
-      "element": "FIRE",
-      "meanings": {
-        "upright": "覚醒と高い召命への応答です。人生の大きな転機であり、新しい自分への目覚めです。過去が清算され、新しいレベルへの上昇が約束されます。この瞬間を見逃さないでください。",
-        "reversed": "判断の遅延と自己懐疑が警告されています。呼び声に応じられず、迷いの中にいます。自分を信じ、最終的な決断を下す勇気を持つべき時です。"
-      }
+      "id": "major_20", "number": 20, "arcana": "major", "element": "spirit",
+      "name": "審判", "name_en": "Judgement",
+      "keywords": ["覚醒", "再生", "召命", "振り返り", "変容"],
+      "meaning_upright": "覚醒と内なる呼びかけの時。過去を振り返り、新しい自分として生まれ変わる準備ができています。",
+      "meaning_reversed": "自己批判や後悔。過去を手放せず、前に進む力が阻まれています。"
     },
     {
-      "number": 21,
-      "name": "The World",
-      "element": "EARTH",
-      "meanings": {
-        "upright": "完成と完全性、サイクルの終了です。あなたの目標は達成され、人生の一つの大きな章が終わります。全てが調和し、新しい段階への準備が整いました。",
-        "reversed": "不完全さと未完成の状態です。目標到達まであと少し、あるいは何か欠けているものがあります。完成に向けた最後の努力を続け、全体像を見つめ直してください。"
-      }
+      "id": "major_21", "number": 21, "arcana": "major", "element": "spirit",
+      "name": "世界", "name_en": "The World",
+      "keywords": ["完成", "統合", "達成", "全体性", "祝福"],
+      "meaning_upright": "一つのサイクルの完全な完成。すべてが統合され、達成の喜びと充実感に満たされています。",
+      "meaning_reversed": "未完成や遅延。あと少しで完成するのに、最後の一歩が踏み出せていません。"
+    },
+    {
+      "id": "wands_01", "number": 1, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドのエース", "name_en": "Ace of Wands",
+      "keywords": ["熱意", "創造の火", "新しい情熱", "チャンス", "インスピレーション"],
+      "meaning_upright": "新しい情熱と創造力が燃え上がる瞬間。大きなチャンスが目の前に現れています。",
+      "meaning_reversed": "エネルギーの停滞や創造力のブロック。情熱が空回りしています。"
+    },
+    {
+      "id": "wands_02", "number": 2, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの2", "name_en": "Two of Wands",
+      "keywords": ["計画", "先見の明", "決断", "冒険の準備", "個人的な力"],
+      "meaning_upright": "大きな計画を立て、広い視野で未来を見渡す時。次の一手を慎重に選んでください。",
+      "meaning_reversed": "計画の遅延や恐れによる躊躇。勇気を持って前に踏み出す時です。"
+    },
+    {
+      "id": "wands_03", "number": 3, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの3", "name_en": "Three of Wands",
+      "keywords": ["展望", "拡張", "進捗", "貿易", "遠見"],
+      "meaning_upright": "計画が軌道に乗り、遠い地平線を見渡しながら次のステップへ。国際的な展開の可能性も。",
+      "meaning_reversed": "障害や遅延。計画が予想通りに進んでいません。"
+    },
+    {
+      "id": "wands_04", "number": 4, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの4", "name_en": "Four of Wands",
+      "keywords": ["祝福", "安定", "帰郷", "コミュニティ", "達成の祝い"],
+      "meaning_upright": "祝福と喜びの時。仕事や人間関係における成果を仲間と共に祝いましょう。",
+      "meaning_reversed": "不安定な基盤や先送りされた祝福。完全な喜びにはまだ何かが必要です。"
+    },
+    {
+      "id": "wands_05", "number": 5, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの5", "name_en": "Five of Wands",
+      "keywords": ["競争", "葛藤", "混乱", "多様な意見", "切磋琢磨"],
+      "meaning_upright": "競争や意見の衝突がある時期。この混乱は成長のための摩擦です。",
+      "meaning_reversed": "内なる葛藤や避けられた対立。問題を直視することから逃げています。"
+    },
+    {
+      "id": "wands_06", "number": 6, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの6", "name_en": "Six of Wands",
+      "keywords": ["勝利", "認知", "成功", "自信", "公的な表彰"],
+      "meaning_upright": "努力が実を結び、周囲に認められる時。自信を持って成功を受け取りましょう。",
+      "meaning_reversed": "挫折や他者からの批判。期待していた認知が得られていません。"
+    },
+    {
+      "id": "wands_07", "number": 7, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの7", "name_en": "Seven of Wands",
+      "keywords": ["防衛", "挑戦", "競争優位", "立場の保持", "粘り強さ"],
+      "meaning_upright": "自分の立場や信念を守り抜く時。多くの挑戦者に囲まれていますが、あなたは有利な位置にいます。",
+      "meaning_reversed": "過剰防衛や妥協。戦う必要のない戦いに消耗しています。"
+    },
+    {
+      "id": "wands_08", "number": 8, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの8", "name_en": "Eight of Wands",
+      "keywords": ["速度", "動き", "進展", "ニュース", "旅行"],
+      "meaning_upright": "物事が急速に動き出す時。障害が取り除かれ、目標に向かって一気に加速します。",
+      "meaning_reversed": "遅延や計画の混乱。エネルギーが誤った方向に向かっています。"
+    },
+    {
+      "id": "wands_09", "number": 9, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの9", "name_en": "Nine of Wands",
+      "keywords": ["粘り強さ", "防衛", "疲労", "最後の力", "傷つきながらも立つ"],
+      "meaning_upright": "疲れ果てていても、もう少しです。過去の経験が知恵となり、最後の力で立ち続けられます。",
+      "meaning_reversed": "諦めや過剰な防衛。傷口を塞がずに前進しようとしています。"
+    },
+    {
+      "id": "wands_10", "number": 10, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドの10", "name_en": "Ten of Wands",
+      "keywords": ["重荷", "過労", "責任", "限界", "手放しの必要性"],
+      "meaning_upright": "多くを抱えすぎている状態。一人で背負いすぎず、分担することを考えてください。",
+      "meaning_reversed": "重荷の放棄や無責任。逃げてしまうことで後悔が残ります。"
+    },
+    {
+      "id": "wands_11", "number": 11, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドのペイジ", "name_en": "Page of Wands",
+      "keywords": ["熱意", "探求", "自由な精神", "ニュース", "新しい試み"],
+      "meaning_upright": "好奇心旺盛で情熱的なエネルギー。新しいことへの探求と挑戦の精神が輝いています。",
+      "meaning_reversed": "未熟さや一貫性のなさ。熱しやすく冷めやすい傾向があります。"
+    },
+    {
+      "id": "wands_12", "number": 12, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドのナイト", "name_en": "Knight of Wands",
+      "keywords": ["行動", "冒険", "情熱", "スピード", "無謀"],
+      "meaning_upright": "情熱的で行動力のある時期。スピード感を持って前進しましょう。",
+      "meaning_reversed": "衝動的な行動や無謀な突進。計画なしに突き進んで失敗するリスクがあります。"
+    },
+    {
+      "id": "wands_13", "number": 13, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドのクイーン", "name_en": "Queen of Wands",
+      "keywords": ["カリスマ", "自信", "情熱", "リーダーシップ", "独立心"],
+      "meaning_upright": "カリスマ的な存在感と情熱を持って状況をリードする時。自信を持って自分を表現しましょう。",
+      "meaning_reversed": "支配的な態度や嫉妬。自分の力を誤った方向に使っています。"
+    },
+    {
+      "id": "wands_14", "number": 14, "arcana": "minor", "suit": "wands", "element": "fire",
+      "name": "ワンドのキング", "name_en": "King of Wands",
+      "keywords": ["ビジョン", "起業家精神", "大胆さ", "リーダー", "影響力"],
+      "meaning_upright": "ビジョンと情熱でチームを率いるリーダー。大胆に行動し、周囲に火をつける時です。",
+      "meaning_reversed": "独裁的な支配や無謀なリスク。力が暴走しています。"
+    },
+    {
+      "id": "cups_01", "number": 1, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップのエース", "name_en": "Ace of Cups",
+      "keywords": ["愛の始まり", "感情の開放", "直感", "新たな関係", "霊的な喜び"],
+      "meaning_upright": "愛と感情の溢れる新しい始まり。心を開き、愛を受け取り、与える準備ができています。",
+      "meaning_reversed": "感情の抑圧や愛情の枯渇。心の扉を閉じてしまっています。"
+    },
+    {
+      "id": "cups_02", "number": 2, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの2", "name_en": "Two of Cups",
+      "keywords": ["絆", "パートナーシップ", "相互理解", "調和", "契約"],
+      "meaning_upright": "深い絆と相互理解に基づく関係。魂レベルでの繋がりが形成されています。",
+      "meaning_reversed": "関係の不和や一方的な感情。パートナーとの意思疎通が取れていません。"
+    },
+    {
+      "id": "cups_03", "number": 3, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの3", "name_en": "Three of Cups",
+      "keywords": ["祝祭", "友情", "コミュニティ", "喜び", "共同創造"],
+      "meaning_upright": "友人や仲間との喜びあふれる時間。お祝いや集まりが豊かな感情をもたらします。",
+      "meaning_reversed": "孤立や過剰な社交。真の繋がりより表面的な付き合いが多くなっています。"
+    },
+    {
+      "id": "cups_04", "number": 4, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの4", "name_en": "Four of Cups",
+      "keywords": ["瞑想", "無関心", "内省", "不満", "見逃したチャンス"],
+      "meaning_upright": "内向きになりすぎて、目の前のチャンスを見逃している状態。外の世界に目を向けましょう。",
+      "meaning_reversed": "無関心からの脱出。新しい視点が生まれ、行動する意欲が戻ってきます。"
+    },
+    {
+      "id": "cups_05", "number": 5, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの5", "name_en": "Five of Cups",
+      "keywords": ["喪失", "後悔", "悲嘆", "残ったもの", "再び立つ"],
+      "meaning_upright": "失ったものへの悲しみの中にいます。しかし、まだ残っているものがあることに目を向けてください。",
+      "meaning_reversed": "悲しみからの回復と前向きな一歩。過去の傷が少しずつ癒えています。"
+    },
+    {
+      "id": "cups_06", "number": 6, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの6", "name_en": "Six of Cups",
+      "keywords": ["懐かしさ", "過去", "無邪気さ", "幼少期", "贈り物"],
+      "meaning_upright": "過去の喜びや懐かしい記憶が重要な意味を持つ時。子供の頃の純粋さが今に活きます。",
+      "meaning_reversed": "過去への執着や現実逃避。懐かしむことに留まらず、前を向いてください。"
+    },
+    {
+      "id": "cups_07", "number": 7, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの7", "name_en": "Seven of Cups",
+      "keywords": ["幻想", "夢見", "選択肢", "現実逃避", "錯覚"],
+      "meaning_upright": "多くの選択肢と夢想の中にいます。幻想と現実を見極め、本当に望むものを選びましょう。",
+      "meaning_reversed": "幻想からの目覚め。現実に向き合う勇気が生まれています。"
+    },
+    {
+      "id": "cups_08", "number": 8, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの8", "name_en": "Eight of Cups",
+      "keywords": ["手放し", "離れる", "深い探求", "失望", "精神的な旅"],
+      "meaning_upright": "築いてきたものを手放し、より深いものを求めて旅に出る時。内なる充実を追い求めましょう。",
+      "meaning_reversed": "無目的な漂流や執着からの戻り。離れるべきか留まるべきかで迷っています。"
+    },
+    {
+      "id": "cups_09", "number": 9, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの9", "name_en": "Nine of Cups",
+      "keywords": ["満足", "願望成就", "幸福感", "喜び", "感謝"],
+      "meaning_upright": "願いが叶い、深い満足感に満たされる時。感謝の心を持ちながら豊かさを受け取りましょう。",
+      "meaning_reversed": "物質的満足のみへの依存や内なる空虚さ。真の幸福は外にはありません。"
+    },
+    {
+      "id": "cups_10", "number": 10, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップの10", "name_en": "Ten of Cups",
+      "keywords": ["家族の幸福", "調和", "愛の成就", "地域", "理想の実現"],
+      "meaning_upright": "愛する人々との深い幸福と調和。家庭や大切な関係が完全な充実に達しています。",
+      "meaning_reversed": "家族の不和や理想と現実のギャップ。幸福の土台が揺らいでいます。"
+    },
+    {
+      "id": "cups_11", "number": 11, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップのペイジ", "name_en": "Page of Cups",
+      "keywords": ["夢想家", "直感", "創造的なメッセージ", "感受性", "芸術"],
+      "meaning_upright": "夢のようなメッセージや直感的な閃き。感受性豊かに世界を受け取る時です。",
+      "meaning_reversed": "感情的な未熟さや空想に逃げる傾向。現実から目を離しすぎています。"
+    },
+    {
+      "id": "cups_12", "number": 12, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップのナイト", "name_en": "Knight of Cups",
+      "keywords": ["ロマンス", "魅力", "理想主義", "詩人", "感情の旅"],
+      "meaning_upright": "愛と美の追求者。理想を掲げ、感情に従って行動する時。",
+      "meaning_reversed": "気まぐれや嫉妬、感情的な操作。理想が現実から離れすぎています。"
+    },
+    {
+      "id": "cups_13", "number": 13, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップのクイーン", "name_en": "Queen of Cups",
+      "keywords": ["共感", "直感", "感情知性", "ケア", "霊性"],
+      "meaning_upright": "深い共感力と感情の知性を持って周囲を支える時。直感は信頼に値します。",
+      "meaning_reversed": "感情への溺れや依存体質。自分を大切にしながら他者を助けることが大切です。"
+    },
+    {
+      "id": "cups_14", "number": 14, "arcana": "minor", "suit": "cups", "element": "water",
+      "name": "カップのキング", "name_en": "King of Cups",
+      "keywords": ["感情の成熟", "外交", "知恵", "バランス", "安定した愛情"],
+      "meaning_upright": "感情と理性を統合した成熟したリーダー。安定した愛情で人々を支える時です。",
+      "meaning_reversed": "感情的な操作や不安定さ。感情をコントロールできていません。"
+    },
+    {
+      "id": "swords_01", "number": 1, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードのエース", "name_en": "Ace of Swords",
+      "keywords": ["明晰さ", "真実", "突破", "新しい思考", "知性"],
+      "meaning_upright": "鋭い知性と明晰な思考で真実を切り開く時。新しいアイデアや突破口が開かれます。",
+      "meaning_reversed": "混乱した思考や残酷な言葉。鋭さが誤った方向に向いています。"
+    },
+    {
+      "id": "swords_02", "number": 2, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの2", "name_en": "Two of Swords",
+      "keywords": ["行き詰まり", "選択の回避", "均衡", "拒絶", "膠着状態"],
+      "meaning_upright": "難しい選択に直面し、どちらにも決めかねている状態。目を開け、現実を直視する勇気を。",
+      "meaning_reversed": "ようやく決断の時が来た。隠れていた情報が明らかになり、前に進めます。"
+    },
+    {
+      "id": "swords_03", "number": 3, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの3", "name_en": "Three of Swords",
+      "keywords": ["悲しみ", "心の痛み", "裏切り", "悲嘆", "喪失"],
+      "meaning_upright": "深い悲しみや心の痛みの時。この痛みを直視し、感じることで癒しへと向かいます。",
+      "meaning_reversed": "悲しみからの回復。徐々に傷が癒え、前を向く力が戻ってきます。"
+    },
+    {
+      "id": "swords_04", "number": 4, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの4", "name_en": "Four of Swords",
+      "keywords": ["休息", "回復", "内省", "一時停止", "静寂"],
+      "meaning_upright": "体と心を回復させるための休息の時。今は動かず、エネルギーを蓄えてください。",
+      "meaning_reversed": "休息の終わりと再始動。十分な休養を経て、行動する準備ができています。"
+    },
+    {
+      "id": "swords_05", "number": 5, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの5", "name_en": "Five of Swords",
+      "keywords": ["葛藤", "敗北", "損失", "空虚な勝利", "対立"],
+      "meaning_upright": "争いの後に残る空虚感。たとえ勝っても失うものがあります。和解の道を探りましょう。",
+      "meaning_reversed": "過去の葛藤からの解放。和解と回復の時が訪れています。"
+    },
+    {
+      "id": "swords_06", "number": 6, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの6", "name_en": "Six of Swords",
+      "keywords": ["移行", "変化", "癒しへの旅", "穏やかな前進", "逃避"],
+      "meaning_upright": "困難な状況から静かな場所へと移行する時。徐々に状況が落ち着き始めます。",
+      "meaning_reversed": "移行の困難や抵抗。変化を受け入れることができていません。"
+    },
+    {
+      "id": "swords_07", "number": 7, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの7", "name_en": "Seven of Swords",
+      "keywords": ["策略", "欺瞞", "秘密", "独自の方法", "ずる賢さ"],
+      "meaning_upright": "正面突破より戦略的なアプローチが有効な時。しかし正直さも忘れずに。",
+      "meaning_reversed": "欺瞞の暴露や自己欺瞞。隠していた真実が明るみに出ます。"
+    },
+    {
+      "id": "swords_08", "number": 8, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの8", "name_en": "Eight of Swords",
+      "keywords": ["制限", "恐れ", "自己束縛", "孤立", "視野の狭さ"],
+      "meaning_upright": "自分自身の思い込みに縛られている状態。制限の多くは実は自分が作り出したものです。",
+      "meaning_reversed": "束縛からの解放と気づき。自分を縛っていた思い込みから自由になれます。"
+    },
+    {
+      "id": "swords_09", "number": 9, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの9", "name_en": "Nine of Swords",
+      "keywords": ["不安", "悪夢", "罪悪感", "絶望", "夜中の心配"],
+      "meaning_upright": "夜中に目覚めるような不安と恐れの時期。思い込みが実際より大きく見えています。",
+      "meaning_reversed": "不安から解放へ。最悪の状況は実は頭の中だけのものかもしれません。"
+    },
+    {
+      "id": "swords_10", "number": 10, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードの10", "name_en": "Ten of Swords",
+      "keywords": ["終焉", "裏切り", "痛みの頂点", "破局", "夜明け前"],
+      "meaning_upright": "痛みの頂点。これ以上は悪くならない。夜明け前の最も暗い時間、必ず光が来ます。",
+      "meaning_reversed": "回復の始まり。最悪の時を過ぎ、ゆっくりと立ち上がることができます。"
+    },
+    {
+      "id": "swords_11", "number": 11, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードのペイジ", "name_en": "Page of Swords",
+      "keywords": ["好奇心", "知的探求", "観察", "コミュニケーション", "機敏"],
+      "meaning_upright": "鋭い観察眼と知的好奇心で真実を探求する時。情報収集が力になります。",
+      "meaning_reversed": "ゴシップや無計画な発言への警告。言葉には責任が伴います。"
+    },
+    {
+      "id": "swords_12", "number": 12, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードのナイト", "name_en": "Knight of Swords",
+      "keywords": ["行動力", "野心", "速さ", "知性", "衝動性"],
+      "meaning_upright": "素早い判断と大胆な行動で目標に突き進む時。考えすぎず動きましょう。",
+      "meaning_reversed": "無謀さや他者への攻撃性。衝動的な言動が問題を招いています。"
+    },
+    {
+      "id": "swords_13", "number": 13, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードのクイーン", "name_en": "Queen of Swords",
+      "keywords": ["明晰さ", "独立", "知性", "直接性", "経験からの知恵"],
+      "meaning_upright": "経験に裏打ちされた鋭い知性と明晰さ。感情に流されず、真実を見抜く力があります。",
+      "meaning_reversed": "冷酷さや批判的な態度。知性が人を傷つけるために使われています。"
+    },
+    {
+      "id": "swords_14", "number": 14, "arcana": "minor", "suit": "swords", "element": "air",
+      "name": "ソードのキング", "name_en": "King of Swords",
+      "keywords": ["知性", "権威", "倫理", "明確な判断", "真実"],
+      "meaning_upright": "知性と倫理観に基づいた公正な判断を下す時。真実と正義のための明確な行動を。",
+      "meaning_reversed": "独裁的な支配や歪んだ判断。権力が正しく使われていません。"
+    },
+    {
+      "id": "pentacles_01", "number": 1, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルのエース", "name_en": "Ace of Pentacles",
+      "keywords": ["繁栄", "新しい機会", "物質的な始まり", "豊かさ", "安定"],
+      "meaning_upright": "物質的な豊かさと新しいビジネスチャンスの始まり。現実的な基盤を築く時です。",
+      "meaning_reversed": "チャンスを逃す危険や物質的な損失。現実的な計画が必要です。"
+    },
+    {
+      "id": "pentacles_02", "number": 2, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの2", "name_en": "Two of Pentacles",
+      "keywords": ["バランス", "適応", "時間管理", "多忙", "柔軟性"],
+      "meaning_upright": "複数のことを同時にこなす曲芸師の時期。バランスを保ちながら軽やかに対応しましょう。",
+      "meaning_reversed": "過負荷やバランスの崩壊。優先順位を見直す必要があります。"
+    },
+    {
+      "id": "pentacles_03", "number": 3, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの3", "name_en": "Three of Pentacles",
+      "keywords": ["チームワーク", "技術", "協力", "計画", "学習"],
+      "meaning_upright": "専門的な技術とチームワークで大きなプロジェクトを推進する時。協力が成功の鍵です。",
+      "meaning_reversed": "協力関係の破綻や質の低下。個人プレーが問題を生んでいます。"
+    },
+    {
+      "id": "pentacles_04", "number": 4, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの4", "name_en": "Four of Pentacles",
+      "keywords": ["安定", "保守", "執着", "節約", "コントロール"],
+      "meaning_upright": "安定を守る時期。ただし、執着と安定の違いを見極めることが大切です。",
+      "meaning_reversed": "物質的な執着の解放。手放すことで新しい豊かさが流れ込みます。"
+    },
+    {
+      "id": "pentacles_05", "number": 5, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの5", "name_en": "Five of Pentacles",
+      "keywords": ["貧困", "困窮", "孤独", "試練", "精神的な助け"],
+      "meaning_upright": "物質的・精神的な困難の時。一人で抱え込まず、助けを求めることを恐れないでください。",
+      "meaning_reversed": "回復の始まり。困難から徐々に抜け出す力が生まれています。"
+    },
+    {
+      "id": "pentacles_06", "number": 6, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの6", "name_en": "Six of Pentacles",
+      "keywords": ["寛大さ", "分かち合い", "与える", "受け取る", "バランス"],
+      "meaning_upright": "豊かさの分かち合いの時。与えることと受け取ることのバランスが大切です。",
+      "meaning_reversed": "施しの見返りを求める態度や不公平な分配。真の寛大さを問い直しましょう。"
+    },
+    {
+      "id": "pentacles_07", "number": 7, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの7", "name_en": "Seven of Pentacles",
+      "keywords": ["投資", "忍耐", "振り返り", "成長の確認", "長期視点"],
+      "meaning_upright": "これまでの努力の成果を確認し、次のステップを検討する時。長期的な視点を持ちましょう。",
+      "meaning_reversed": "怠惰や投資の失敗。努力が結果に結びついていません。"
+    },
+    {
+      "id": "pentacles_08", "number": 8, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの8", "name_en": "Eight of Pentacles",
+      "keywords": ["熟練", "技術向上", "集中", "職人気質", "完璧主義"],
+      "meaning_upright": "技術を磨き、一つのことに集中して取り組む時。努力の積み重ねが真の実力を生みます。",
+      "meaning_reversed": "完璧主義による停滞や低品質な作業。基本に立ち返りましょう。"
+    },
+    {
+      "id": "pentacles_09", "number": 9, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの9", "name_en": "Nine of Pentacles",
+      "keywords": ["豊かさ", "自立", "洗練", "達成の喜び", "自己充足"],
+      "meaning_upright": "努力の末に得た豊かさと自立。自分を労い、獲得した恵みを楽しむ時です。",
+      "meaning_reversed": "見せかけの豊かさや依存体質。本当の意味での自立が求められています。"
+    },
+    {
+      "id": "pentacles_10", "number": 10, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルの10", "name_en": "Ten of Pentacles",
+      "keywords": ["家族の繁栄", "遺産", "長期的安定", "伝統", "物質的完成"],
+      "meaning_upright": "世代を超えた豊かさと家族の安定。長い努力が実を結び、次世代に引き継ぐ礎が完成します。",
+      "meaning_reversed": "家族の問題や財産争い。物質的な豊かさが感情的な充実と乖離しています。"
+    },
+    {
+      "id": "pentacles_11", "number": 11, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルのペイジ", "name_en": "Page of Pentacles",
+      "keywords": ["学習", "実践的な探求", "目標設定", "新しいスキル", "着実さ"],
+      "meaning_upright": "新しいスキルや知識を着実に身につける時。目標を明確にし、一歩ずつ前進しましょう。",
+      "meaning_reversed": "学習の怠慢や現実逃避。夢ばかりで行動が伴っていません。"
+    },
+    {
+      "id": "pentacles_12", "number": 12, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルのナイト", "name_en": "Knight of Pentacles",
+      "keywords": ["勤勉", "忍耐", "責任感", "着実な進歩", "保守的"],
+      "meaning_upright": "着実で責任感のある行動で目標に向かう時。急がず確実に、一歩一歩積み上げましょう。",
+      "meaning_reversed": "停滞や保守的すぎる態度。変化への抵抗が成長を妨げています。"
+    },
+    {
+      "id": "pentacles_13", "number": 13, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルのクイーン", "name_en": "Queen of Pentacles",
+      "keywords": ["実用性", "豊かさ", "ケア", "安心感", "現実的な愛"],
+      "meaning_upright": "実用的な知恵と温かさで周囲を支える時。物質的な豊かさと精神的な充実を両立しています。",
+      "meaning_reversed": "物質主義や過保護。現実的すぎて感情を忘れています。"
+    },
+    {
+      "id": "pentacles_14", "number": 14, "arcana": "minor", "suit": "pentacles", "element": "earth",
+      "name": "ペンタクルのキング", "name_en": "King of Pentacles",
+      "keywords": ["豊かさ", "安定", "ビジネスの成功", "信頼性", "寛大さ"],
+      "meaning_upright": "物質的な成功と安定の頂点。実績に裏打ちされた信頼と寛大さで周囲を豊かにする時です。",
+      "meaning_reversed": "物質主義や腐敗、頑固さ。豊かさが傲慢さに変わっていないか振り返りましょう。"
     }
   ]
 }
