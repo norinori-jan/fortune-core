@@ -1,0 +1,10 @@
+{
+  "乾": { "wuxing": "金", "number": 1 },
+  "兌": { "wuxing": "金", "number": 2 },
+  "離": { "wuxing": "火", "number": 3 },
+  "震": { "wuxing": "木", "number": 4 },
+  "巽": { "wuxing": "木", "number": 5 },
+  "坎": { "wuxing": "水", "number": 6 },
+  "艮": { "wuxing": "土", "number": 7 },
+  "坤": { "wuxing": "土", "number": 8 }
+}
