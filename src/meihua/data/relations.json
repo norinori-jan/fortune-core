@@ -1,12 +1,12 @@
 {
   "relations": [
-    { "key": "TAI_KOKU_YOU",       "polarity": "BAD",     "template": "現在の配置は「体剋用」となり、あなたの意志や行動が目的の流れを妨げやすい時期です。{{timeScopeText}}は慎重に進めることでトラブルを避けられます。" },
-    { "key": "YOU_KOKU_TAI",       "polarity": "BAD",     "template": "「用剋体」の配置となり、外部からの要求や状況の変化が負担になりやすい時期です。{{timeScopeText}}は無理をせず、優先順位を絞ることが大切です。" },
-    { "key": "YOU_SEI_TAI",        "polarity": "GOOD",    "template": "「用生体」となり、環境や相手からのサポートが得られやすい流れです。{{timeScopeText}}は素直な姿勢が運を引き寄せます。" },
-    { "key": "TAI_SEI_YOU",        "polarity": "GOOD",    "template": "「体生用」の配置となり、あなたの行動が目的を後押しする時期です。{{timeScopeText}}は積極的な姿勢が成果につながります。" },
-    { "key": "SAME_ELEMENT",       "polarity": "NEUTRAL", "template": "体と用が比和し、安定した流れとなっています。{{timeScopeText}}は大きな変化よりも現状維持が吉です。" },
-    { "key": "TAI_STRONG_YOU_WEAK","polarity": "BAD",     "template": "体旺用弱の配置となり、あなたの意志が強すぎて状況と噛み合いにくい時期です。{{timeScopeText}}は柔軟性を意識すると改善します。" },
-    { "key": "YOU_STRONG_TAI_WEAK","polarity": "BAD",     "template": "用旺体弱となり、目的や相手のペースに押されやすい時期です。{{timeScopeText}}は無理を避け、体調管理を優先しましょう。" },
-    { "key": "MIXED",              "polarity": "NEUTRAL", "template": "複数の生剋が絡む複雑な配置です。{{timeScopeText}}は状況が揺れやすいため、慎重な判断が求められます。" }
+    { "key": "TAI_KOKU_YOU",        "polarity": "BAD",     "template": "現在の配置は「体剋用」となり、あなたの意志や行動が目的の流れを妨げやすい時期です。{{timeScopeText}}は慎重に進めることでトラブルを避けられます。" },
+    { "key": "YOU_KOKU_TAI",        "polarity": "BAD",     "template": "「用剋体」の配置となり、外部からの要求や状況の変化が負担になりやすい時期です。{{timeScopeText}}は無理をせず、優先順位を絞ることが大切です。" },
+    { "key": "YOU_SEI_TAI",         "polarity": "GOOD",    "template": "「用生体」となり、環境や相手からのサポートが得られやすい流れです。{{timeScopeText}}は素直な姿勢が運を引き寄せます。" },
+    { "key": "TAI_SEI_YOU",         "polarity": "GOOD",    "template": "「体生用」の配置となり、あなたの行動が目的を後押しする時期です。{{timeScopeText}}は積極的な姿勢が成果につながります。" },
+    { "key": "SAME_ELEMENT",        "polarity": "NEUTRAL", "template": "体と用が比和し、安定した流れとなっています。{{timeScopeText}}は大きな変化よりも現状維持が吉です。" },
+    { "key": "TAI_STRONG_YOU_WEAK", "polarity": "BAD",     "template": "体旺用弱の配置となり、あなたの意志が強すぎて状況と噛み合いにくい時期です。{{timeScopeText}}は柔軟性を意識すると改善します。" },
+    { "key": "YOU_STRONG_TAI_WEAK", "polarity": "BAD",     "template": "用旺体弱となり、目的や相手のペースに押されやすい時期です。{{timeScopeText}}は無理を避け、体調管理を優先しましょう。" },
+    { "key": "MIXED",               "polarity": "NEUTRAL", "template": "複数の生剋が絡む複雑な配置です。{{timeScopeText}}は状況が揺れやすいため、慎重な判断が求められます。" }
   ]
 }
