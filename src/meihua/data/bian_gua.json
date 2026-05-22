@@ -1,0 +1,53 @@
+﻿{
+  "bian_gua_patterns": [
+    {
+      "key": "BIAN_GOOD_END",
+      "condition": "変卦が体を生じる・比和",
+      "polarity": "GOOD",
+      "trend": "ascending",
+      "template": "変卦の流れは吉に向かっており、{{timeScopeText}}を経て状況が好転する結末が見えます。今は辛抱の時であっても、最終的には望む方向に落ち着くでしょう。"
+    },
+    {
+      "key": "BIAN_BAD_END",
+      "condition": "変卦が体を剋する",
+      "polarity": "BAD",
+      "trend": "descending",
+      "template": "変卦は困難な結末を示しています。{{timeScopeText}}に向けて状況が厳しくなります。早めに方針を変えることで被害を最小限に抑えられます。"
+    },
+    {
+      "key": "BIAN_RECOVER",
+      "condition": "本卦凶・変卦吉",
+      "polarity": "GOOD",
+      "trend": "recovery",
+      "template": "現在は困難な局面ですが、変卦は回復を示しています。{{timeScopeText}}は忍耐が必要ですが、その先に転換点が訪れます。諦めないことが鍵です。"
+    },
+    {
+      "key": "BIAN_DECLINE",
+      "condition": "本卦吉・変卦凶",
+      "polarity": "BAD",
+      "trend": "declining",
+      "template": "現在は良い流れですが、変卦は衰退への転換を示しています。{{timeScopeText}}のうちに成果を固め、長期的な依存は避けることが賢明です。"
+    },
+    {
+      "key": "BIAN_STABLE",
+      "condition": "変卦が比和・中立",
+      "polarity": "NEUTRAL",
+      "trend": "stable",
+      "template": "変卦は大きな変化を示さず、現状の流れが続く結末です。{{timeScopeText}}は現在の方針を維持しつつ、小さな改善を積み重ねることが吉となります。"
+    },
+    {
+      "key": "BIAN_TRANSFORM",
+      "condition": "変卦が本卦と大きく異なる五行",
+      "polarity": "NEUTRAL",
+      "trend": "transform",
+      "template": "変卦は現在とは全く異なる局面への転換を示しています。{{timeScopeText}}に予期しない変化が訪れる可能性があります。柔軟な対応が求められます。"
+    },
+    {
+      "key": "BIAN_SAME_AS_BEN",
+      "condition": "変卦が本卦と同じ",
+      "polarity": "NEUTRAL",
+      "trend": "unchanged",
+      "template": "変卦が本卦と同じであり、状況の本質は変わらないことを示しています。{{timeScopeText}}は新しいことを求めるより、現状を深めることに意味があります。"
+    }
+  ]
+}

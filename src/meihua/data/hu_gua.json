@@ -1,0 +1,22 @@
+﻿{
+  "hu_gua_patterns": [
+    {
+      "key": "HU_GOOD",
+      "condition": "互卦が体を生じる・比和",
+      "polarity": "GOOD",
+      "template": "互卦は内部に潜む好機を示しており、表面には見えない援助や流れがあなたを支えています。{{timeScopeText}}は内側の力を信じて動くことが吉となります。"
+    },
+    {
+      "key": "HU_BAD",
+      "condition": "互卦が体を剋する",
+      "polarity": "BAD",
+      "template": "互卦は内部に潜む障害を示しています。表面上は順調に見えても、内側に問題が潜んでいます。{{timeScopeText}}は細部への注意を怠らないことが重要です。"
+    },
+    {
+      "key": "HU_NEUTRAL",
+      "condition": "互卦が中立",
+      "polarity": "NEUTRAL",
+      "template": "互卦からの特別な影響はなく、深層は安定しています。{{timeScopeText}}は表面の卦象に従って判断してください。"
+    }
+  ]
+}
