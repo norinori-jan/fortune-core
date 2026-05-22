@@ -1,0 +1,34 @@
+{
+  "month_branches": {
+    "description": "十二支と月の対応・五行の旺相",
+    "mapping": {
+      "寅": { "month": 1, "wuxing": "木", "strength_type": "WANG_XIANG" },
+      "卯": { "month": 2, "wuxing": "木", "strength_type": "WANG_XIANG" },
+      "辰": { "month": 3, "wuxing": "土", "strength_type": "WANG_XIANG" },
+      "巳": { "month": 4, "wuxing": "火", "strength_type": "WANG_XIANG" },
+      "午": { "month": 5, "wuxing": "火", "strength_type": "WANG_XIANG" },
+      "未": { "month": 6, "wuxing": "土", "strength_type": "WANG_XIANG" },
+      "申": { "month": 7, "wuxing": "金", "strength_type": "WANG_XIANG" },
+      "酉": { "month": 8, "wuxing": "金", "strength_type": "WANG_XIANG" },
+      "戌": { "month": 9, "wuxing": "土", "strength_type": "WANG_XIANG" },
+      "亥": { "month": 10, "wuxing": "水", "strength_type": "WANG_XIANG" },
+      "子": { "month": 11, "wuxing": "水", "strength_type": "WANG_XIANG" },
+      "丑": { "month": 12, "wuxing": "土", "strength_type": "WANG_XIANG" }
+    }
+  },
+  "day_branches": {
+    "description": "十干十二支周期・日の吉凶",
+    "templates": [
+      { "key": "DAY_SUPPORT",   "template": "本日は体卦の日支と通じており、流れが後押しされます。{{timeScopeText}}は動きが活発になるでしょう。" },
+      { "key": "DAY_NEUTRAL",   "template": "本日の日支は卦象とは特に関係なく、判断は他の要素で決まります。{{timeScopeText}}は状況を見守ることが優先です。" },
+      { "key": "DAY_OBSTACLE",  "template": "本日の日支は体卦と相剋となり、動きが鈍りやすい時期です。{{timeScopeText}}は大きな決断を避けると無難です。" }
+    ]
+  },
+  "month_support_strength": {
+    "WANG": 2.0,
+    "XIANG": 1.5,
+    "XIU": 0.5,
+    "QIU": -0.5,
+    "SI": -2.0
+  }
+}
