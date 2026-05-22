@@ -1,4 +1,4 @@
-const TIME_SCOPE_TEXT = {
+﻿const TIME_SCOPE_TEXT = {
   THIS_MONTH: "今月",
   THIS_YEAR:  "今年",
   NOW:        "現在"

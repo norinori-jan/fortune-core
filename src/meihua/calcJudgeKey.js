@@ -1,4 +1,4 @@
-import { getRelation } from "../utils.js";
+﻿import { getRelation } from "../utils.js";
 import dataRegistry from "../registries/dataRegistry.js";
 
 // 時間スコープの判定

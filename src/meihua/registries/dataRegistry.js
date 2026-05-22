@@ -1,4 +1,4 @@
-import hexagramData from "../data/hexagram_wuxing.json" assert { type: "json" };
+﻿import hexagramData from "../data/hexagram_wuxing.json" assert { type: "json" };
 
 class DataRegistry {
   constructor() { this.hexagrams = hexagramData; }
